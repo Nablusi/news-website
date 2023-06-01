@@ -1,0 +1,115 @@
+.article-body {
+  padding-top: 100px;
+}
+.article-body .nav-crumb nav li {
+  font-size: 20px;
+  color: #000 !important;
+}
+.article-body .nav-crumb nav li a {
+  color: #000 !important;
+  font-size: 20px;
+  text-decoration: none;
+}
+.article-body .article-page-title .container h2 {
+  color: #000;
+}
+.article-body .article-page-title .container .row .card .card-body .article-subtitle {
+  color: #000;
+}
+.article-body .article-page-title .container .row .card .card-body .article-time {
+  background-color: #E5E5E5;
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+.article-body .article-page-title .container .row .card .card-body .article-time::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  right: 0;
+  background-color: #b80000;
+  top: 0;
+}
+.article-body .article-page-title .container .row .card .card-body .article-time time {
+  color: #000;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.article-body .article-page-title .container .row .card .card-body .card-text {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.article-body .article-page-title .container .row .card .card-body .most-read-header {
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+.article-body .article-page-title .container .row .card .card-body .most-read-header::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 100%;
+  right: 0;
+  background-color: #b80000;
+  top: 0;
+}
+.article-body .article-page-title .container .row .card .card-body .most-read-header h2 {
+  color: #000;
+  padding-right: 20px;
+}
+.article-body .article-page-title .container .row .card .card-body .article-link {
+  font-weight: bold;
+}
+.article-body .article-page-title .container .row .card .card-body .article-link:hover {
+  text-decoration: underline;
+}
+.article-body .article-page-title .container .row .card .card-body iframe {
+  width: 100%;
+}
+.article-body .article-page-title .container .row .card .card-body .spans span {
+  background-color: #E5E5E5;
+  font-size: 22px;
+  padding: 10px 25px;
+}
+.article-body .article-page-title .container .row .card .card-body form .form-control:focus {
+  box-shadow: 0px 0px 4px 2px #000 !important;
+  outline: none !important;
+  border: none !important;
+}
+.article-body .article-page-title .container .row .card .card-body form .article-btn {
+  background-color: #b80000;
+  color: #fff;
+  border: 1px solid #b80000;
+  padding: 2px 30px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-size: 22px;
+}
+.article-body .article-page-title .container .row .card .card-body form .article-btn:hover {
+  background-color: #fff;
+  color: #b80000;
+}
+.article-body .article-page-title .container .row .card .card-body .comments .comments-card {
+  gap: 20px;
+}
+.article-body .article-page-title .container .row .card .card-body .comments .comments-card .user-img {
+  width: 70px !important;
+  height: 70px;
+}
+.article-body .article-page-title .container .row .card .card-body .comments .comments-card .user-comment {
+  background-color: #E5E5E5;
+  padding: 20px;
+  position: relative;
+}
+.article-body .article-page-title .container .row .card .card-body .comments .comments-card .user-comment::after {
+  content: "";
+  position: absolute;
+  border-color: transparent transparent transparent #E5E5E5;
+  top: 15px;
+  right: -29px;
+  border-style: solid;
+  border-width: 15px;
+}/*# sourceMappingURL=article.css.map */

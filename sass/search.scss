@@ -1,0 +1,72 @@
+@import "./variables";
+@import "./mixin";
+
+
+.search-body{
+    padding-top:100px;
+    padding-bottom: 100px;
+    .row{
+        form{
+            input{
+                &:focus{
+                    border: 1px solid $black-color;
+                    box-shadow: none !important;
+                }
+            }
+            .btn-search{
+                @include button ($main-color, $white-color, $border-color);
+                font-size: 22px;
+                margin-right: 25px;
+            }
+        }
+        .conta{
+            margin-top: 50px;
+            h2{
+                font-size: 22px !important;
+            }
+            .arra{
+                p{
+                    font-size: 22px;
+                }
+                select{
+                    padding: 5px 15px;
+                    border: 1px solid #B1AEAE;
+                    border-radius: 5px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+            }
+
+        }
+        .card{
+            h5{
+                font-size: 16px;
+            }
+            .card-text{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                font-size: 16px;
+            }
+        }
+    }
+    .button-resullt{
+        @include button ($main-color, $white-color, $border-color);
+        font-size: 22px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:991px){
+    .search-body{
+        .card{
+            h5{
+                font-size: 12px !important;
+            }
+            .card-text{
+                font-size: 12px !important;
+            }
+        }
+    }
+}
